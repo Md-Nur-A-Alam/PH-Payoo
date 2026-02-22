@@ -25,7 +25,7 @@ document.getElementById("withdraw-btn").addEventListener("click", function () {
     }
 
     // 5. Validate PIN
-    if (pin !== "0011") {
+    if (pin !== "1234") {
         alert("Incorrect PIN.");
         return;
     }
