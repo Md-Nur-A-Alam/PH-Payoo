@@ -37,3 +37,4 @@ if (selected) {
     alert(`didn't match with "${button.id}" sections`);
 }
 })
+

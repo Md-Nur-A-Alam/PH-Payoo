@@ -35,6 +35,8 @@ document.getElementById("add-money-btn")
             selected bank: ${addBank}
             selected account: ${addAccountNum}
             amount added: ${addAmount}
-            `)
+            `);
+        
+        addMoneyTransactionHistory(addAmount,addBank, addAccountNum,currentBalance,newBalance);
     }
 })

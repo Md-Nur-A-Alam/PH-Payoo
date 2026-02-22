@@ -78,7 +78,7 @@
                     <img src="./assets/opt-5.png" alt="" class="mx-auto my-2">
                     <p>Pay Bill</p>
                 </button>
-                <button id="btn-" class="btn btn-soft flex-col h-full hover:scale-95 btn-neutral">
+                <button id="btn-transactions" class="btn btn-soft flex-col h-full hover:scale-95 btn-neutral">
                     <img src="./assets/opt-6.png" alt="" class="mx-auto my-2">
                     <p>Transactions</p>
                 </button>
@@ -148,7 +148,7 @@
             </section>
         </section>
 
-        <section id="transactions" class="w-11/12 mx-auto mt-9">
+        <section id="transactions" class="w-11/12 mx-auto my-9">
             <h2 class="text-xl font-bold mb-4">Transaction History</h2>
             <div id="transaction-list" class="flex flex-col gap-3 max-h-80 overflow-y-auto">
                 <!-- Example Transaction Card -->
@@ -156,15 +156,19 @@
                     <div>
                         <p class="font-bold text-neutral">Add Money</p>
                         <p class="text-sm text-neutral/50">12 Feb 2026, 10:30 AM</p>
+                        <p class="font-bold text-success">+$5000</p>
                     </div>
-                    <p class="font-bold text-success">+$5000</p>
+                    <input type="checkbox"
+                        class="toggle border-neutral/50 bg-neutral/10 checked:border-orange-500 checked:bg-orange-400 checked:text-orange-800" />
                 </div>
             </div>
         </section>
     </div>
+
     <script src="./script/machine.js"></script>
     <script src="./script/cashout.js"></script>
     <script src="./script/addMoney.js"></script>
+    <script src="./script/transactionHistory.js"></script>
 </body>
 
 </html>
