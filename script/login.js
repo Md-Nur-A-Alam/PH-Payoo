@@ -9,5 +9,4 @@ document.getElementById("login-btn").addEventListener("click", function(){
     else{
         alert("Please enter valid info")
     }
-    console.log(mobileNumber+' '+pin);
 })
